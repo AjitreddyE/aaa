@@ -1,0 +1,157 @@
+IIB-Commands :
+======================
+To display the processes
+
+ps -ef | grep keyword
+---------------------------------------------
+To kill the processes
+
+kill -9 process ID's
+---------------------------------------------
+For multi-instance broker
+
+At server1:
+        
+dspmq
+        
+strmqm -X QM1
+           
+result is QM1 is running
+-------------------------------------
+At server2:
+        
+dspmq
+                
+resp:elseware
+        
+strmqm -X QM1
+               
+response:stand by
+------------------------------------
+At server1:
+
+dspmq
+
+endmqm -s QM1
+
+resp:stand by
+ 
+------------------------------------
+At server2:
+
+dspmq
+ 
+resp:running
+------------------------------------
+1.START/STOP commands
+ :
+To start broker
+. 
+mqsistart brokername
+ 
+----------------------------------
+To stop broker
+.
+mqsistop broker
+
+  
+----------------------------------
+To start executiongroup
+.  
+mqsistart brokername -e EG
+ 
+-------------------------------------------
+To stop executiongroup
+.
+mqsistop executiongroup -e EG
+
+ 
+------------------------------------------------
+To start application.
+ 
+mqsistartmsgflow brokername  -e EG -k applicationname
+ 
+----------------------------------------------------------------------------------------
+To stop application
+. 
+mqsistopmsgflow brokername  -e EG -k applicationname
+
+ 
+---------------------------------------------------------------------------------------
+To start msgflow
+. 
+mqsistartmsgflow brokername -e EG -k applicationname -m msgflow
+
+---------------------------------------------------------------------------------------------------------
+To stop msgflow
+. 
+mqsistopmsgflow brokername  -e EG -k applicationname -m msgflow
+-----------------------------------------------------------------------------------------------------------
+2.Status verification commands : 
+
+To list all brokers.
+mqsilist
+ 
+----------------------------
+To list execution groups
+
+mqsilist brokername
+ 
+--------------------------------------
+To list application name
+ 
+mqsilist brokername -e EG
+ 
+-----------------------------------------
+To list messageflows
+ 
+mqsilist brokername -e EG -k applicationname
+----------------------------------------------------------------------------
+3.Log file location
+      
+We need to setup log files to the broker by activating rsyslog service
+
+ " /var/log/usr.log
+ " " /var/trace/ " .
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+4.Installation directories
+
+
+Installation directory:
+  " /opt/ibm/mqsi/9.0.0.5/var/mqsi/ ".
+----------------------------------------------------------------------------------------------
+/var/mqsi/common/errors               Error files
+        
+/var/mqsi/common/locks                Resource locks
+          
+/var/mqsi/common/log                   Trace files
+          
+/var/mqsi/common/profiles             User profiles
+          
+/var/mqsi/common/components     Component details
+------------------------------------------------------------------------------
+5.list of instances:
+
+messagebroker
+             
+Executiongroup
+             
+application
+             
+messageflow  etc.
+-------------------------------------------------------------------------------
+6.For bar files
+
+
+ :
+mqsireadbar -b barfilename -r
+
+
+
+
+mqsireadbar -b barfilename >>bar.properties
+
+
+
+
+mqsiapplybaroverride -b barfilename -p propertiesfilename
