@@ -1,0 +1,104 @@
+mqsistopmsgflow  9WPRDBRK -e  NEWNETLINE -k 'flowname'
+
+mqsistartmsgflow  9WPRDBRK -e  NEWNETLINE -k 'flowname'
+
+Next connect to putty with these credentials
+172.28.4.161
+UN: mqsi
+PWD: amo@9009
+
+sftp netline@172.28.9.80
+dB#Ftc9ILa6
+
+opt/lsy/netline/schedops/All_Messages/Airpath_Live
+
+
+df -mh
+
+
+Airpath_Live        9W_Airpath_ASM_File_Transfer_Interface Yes
+
+Airpath_MVT_Live    9W_Airpath_MVT_File_Transfer_Interface Yes
+
+Saber_Live          9W_Sabre_ASM_File_Transfer_Interface Yes
+
+Saber_Live_4_145    9W_Sabre_live_4.145_Transfer_Interface Yes
+
+Saber_res9W_MVT     9W_Sabre_MVT_File_Transfer_Interface  Yes
+
+Saber_resS2_MVT     9W_Sabre_MVT_S2_File_Transfer_Interface  Yes
+
+Avient_asm          9W_Avient_ASM_File_Transfer_Interface  Yes
+
+Avient_mvt          9W_Avient_MVT_File_Transfer_Interface Yes
+
+cargo_asm           9W_CargoSpot_ASM_File_Transfer_Interface Yes
+
+cargo_mvt           9W_CargoSpot_MVT_File_Transfer_Interface Yes
+
+
+/nfs-share/MQHA/WMB/interface/Netline/	
+
+Credentials:
+eidiko-jetairways-support@eidiko.com
+Jetairways@123
+
+
+/opt/lsy/netline/schedops/All_Messages/
+
+
+Sign-in page
+https://portal.office.com/
+Your user ID
+ravivarma@EidikoCisco123.onmicrosoft.com
+Sarasu@10
+
+
+
+tondaputirapareddy@gmail.com
+@Aparitreddy22
+
+
+https://ravieidiko.atlassian.net
+ravivarma14.eidiko@gmail.com
+Sarasu@10
+
+
+
+
+
+
+Hi Sir,
+
+      We stopped  the Netline  message flows individually first, After that We restarted the Netline broker, then we  started message flows. In this process no files are piled up at source location of interfaces.
+
+Thanks&Regards,
+G.V. Ravi Varma
+
+
+
+
+	ratan.siripurapu@eidiko.com
+	
+	srinivas.maggari@eidiko.com
+	
+	
+	My user id : Y2lzY29zcGFyazovL3VzL1BFT1BMRS8wZDFhODAwMi00YzI2LTQzYTktOGFjMS0wNWMxZDNmMGYyNjc
+	My Token   : MjU5MzBmNGItOTZiMy00Y2M5LWEzODItNDFlMWI1NTNiOGZjYjY5OWJmYzItNjll	
+
+	
+	
+	
+	pradeep.kanukuntla@eidiko.com
+
+krishnakamal.nagalla@eidiko.com,
+ajithkumar@eidiko.com,
+nisschala.p@eidiko.com,
+rajitha.seelam@eidiko.com,
+james.watkins@eidiko.com,
+manoj.bandaru@eidiko.com,
+lakshmanna@eidiko.com,
+padma.maggari@eidiko.com,
+sudheer.palakurthi@eidiko.com.
+
+
