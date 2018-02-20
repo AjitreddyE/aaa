@@ -37,68 +37,7 @@ cargo_asm           9W_CargoSpot_ASM_File_Transfer_Interface Yes
 cargo_mvt           9W_CargoSpot_MVT_File_Transfer_Interface Yes
 
 
-/nfs-share/MQHA/WMB/interface/Netline/	
-
-Credentials:
-eidiko-jetairways-support@eidiko.com
-Jetairways@123
-
-
-/opt/lsy/netline/schedops/All_Messages/
-
-
-Sign-in page
-https://portal.office.com/
-Your user ID
-ravivarma@EidikoCisco123.onmicrosoft.com
-Sarasu@10
-
-
-
-tondaputirapareddy@gmail.com
-@Aparitreddy22
-
-
-https://ravieidiko.atlassian.net
-ravivarma14.eidiko@gmail.com
-Sarasu@10
-
-
-
-
-
-
-Hi Sir,
-
-      We stopped  the Netline  message flows individually first, After that We restarted the Netline broker, then we  started message flows. In this process no files are piled up at source location of interfaces.
-
-Thanks&Regards,
-G.V. Ravi Varma
-
-
-
-
-	ratan.siripurapu@eidiko.com
-	
-	srinivas.maggari@eidiko.com
-	
-	
-	My user id : Y2lzY29zcGFyazovL3VzL1BFT1BMRS8wZDFhODAwMi00YzI2LTQzYTktOGFjMS0wNWMxZDNmMGYyNjc
-	My Token   : MjU5MzBmNGItOTZiMy00Y2M5LWEzODItNDFlMWI1NTNiOGZjYjY5OWJmYzItNjll	
-
-	
-	
-	
-	pradeep.kanukuntla@eidiko.com
-
-krishnakamal.nagalla@eidiko.com,
-ajithkumar@eidiko.com,
-nisschala.p@eidiko.com,
-rajitha.seelam@eidiko.com,
-james.watkins@eidiko.com,
-manoj.bandaru@eidiko.com,
-lakshmanna@eidiko.com,
-padma.maggari@eidiko.com,
-sudheer.palakurthi@eidiko.com.
-
+CONFIDENTIALITY / DISCLAIMER NOTICE : This email is from Jet Privilege Private Limited. The contents of this email and any attachments is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged information for the recipient and may not be disclosed to or used by or copied in any way by anyone other than the intended recipient. If you are not the intended recipient, please notify the sender immediately by return e-mail, delete this e-mail and destroy any copies. Reasonable precautions have been taken to ensure that this message is virus-free. However, Jet Privilege Private Limited does not accept responsibility.
+ by or copied in any way by anyone other than the intended recipient. If you are not the intended recipient, please 
+ jodo
 
